@@ -40,9 +40,9 @@ public class Main {
                                             "@@@@}(<@{[#{{{%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%]}+-.~#@@@@@@@@@@@@@@@@@@@@@@@@ \r\n" + //
                                             "@@@@[[@}{@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#%[-~%@@@@@@@@@@@@@@@@@@@@@@@@     4.Connaitre la sortie de Hashage d'un mot de passe\r\n" + //
                                             "%%%%%#%#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###%%%%%%%%%%%%%@@@@@@@@@@@@\r\n" + //
-                                            "%%%%%#########%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%##%%%%%%%%%%%%%%%%%@@@@@@@@@@     5.Ajouter la sortie de Hashage d'un mot de passe\r\n" + //
+                                            "%%%%%#########%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%##%%%%%%%%%%%%%%%%%@@@@@@@@@@     5.Ajouter la sortie de Hashage d'un mot de passe(Pas encore Implémentée)\r\n" + //
                                             "%%%%%%########%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%##%%%%%%%%%%%%%%@@@@@@@@@@@@\r\n" + //
-                                            "%%%%%#########%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%##%%%%%%%%%%%%%%%%%@@@@@@@@@@     6.Attaque en Ligne d'un site Web\r\n" + //
+                                            "%%%%%#########%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%##%%%%%%%%%%%%%%%%%@@@@@@@@@@     6.Attaque en Ligne d'un site Web(Pas encore Implémentée)\r\n" + //
                                             "%%%%%#########%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%##%%%%%%%%%%%%%%%%%@@@@@@@@@@\r\n" + //
                                             "%%%%%#########%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%##%%%%%%%%%%%%%%%%%@@@@@@@@@@     7.Quitter le programme\r\n" + //
                                             "\r\n" + //
@@ -61,13 +61,16 @@ public class Main {
                                 break;
                             // Permet à l'utilisateur de sélectionner un autre type d'attaque
                         case "4":
-                        case "5":
                                 InformationPassword infosPassword=factoryInfos.getInstance(userChoix);
                                 infosPassword.afficherMenu();
                                 quit=false;
                                 break;
+                        case "5":
+                                quit=false;
+                                break;
                         case "6":
-                                
+                            quit=false;  
+                            break;              
                         case "7":
                             quit = true; // Quitter le programme
                             affichage.effacerConsole();
