@@ -17,14 +17,14 @@ CrackProject est une application Java conçue pour démontrer différentes techn
 
 ### 🧠 Interface de Force Brute
 | ![BF1](./Images/BruteForceInterface.png) | ![BF2](./Images/BruteForceInterface2.png) |
-| > Menu Interface | > Interface avec les calculs de temps environs par rapport a la machine|
+| > Menu Interface                         | > Interface avec les calculs de temps environs par rapport a la machine|
 
 ### 📚 Interface de Dictionnaire
 ![Dictionnaire UI](./Images/DictionnaireInterface.png)
 >Recherche via une liste prédéfinie
 
 ### 🛠️ Ajout manuel de mots de passe 
-| ![H1](./Images/HashInterface.png) | ![H2](./Images/HashInterface.png) |
+| ![H1](./Images/HashInterface.png) | ![H2](./Images/HashInterface2.png) |
 | > Menu Hash Interface | > Menu Ajout Mot de Passe|
 
 
