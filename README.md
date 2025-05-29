@@ -86,29 +86,31 @@ CrackProject est une application Java conçue pour démontrer différentes techn
 ### 🧰 Prérequis
 
 - Java JDK 8+
-
--Un terminal (ou IDE comme IntelliJ IDEA, VS Code avec plugin Java...)
-
+- Un terminal (ou IDE comme IntelliJ IDEA,VS CODE avec plugin Java ...)
 ### Étapes
 
 1. Cloner le projet :
-   ```bash
+```bash
    git clone https://github.com/MrSalifDiallo/CrackProject.git
    cd CrackProject
    ```
 2.Compiler les fichiers Java
 ```bash
 javac *.java
-Exécuter l'application
 ```
 3.Lancer L'Application
 ```bash
 java Main
 ```
-## Contribution
+## 💡Contribution
 
 1. Fork le projet
 2. Créer une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`)
 3. Commit vos changements (`git commit -m 'Add some AmazingFeature'`)
 4. Push vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrir une Pull Request
+
+## 📄  Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails. 
+
