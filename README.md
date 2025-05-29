@@ -114,3 +114,10 @@ java Main
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails. 
 
+## 👤 Auteur
+
+**Salif Diallo**  
+💼 Développeur && passionné par les solutions de gestion  
+📧 [salifdiallo@esp.sn](mailto:salifdiallo@esp.sn)  
+🔗 [GitHub - MrSalifDiallo](https://github.com/MrSalifDiallo)  
+🌍 Basé à Dakar, Sénégal
