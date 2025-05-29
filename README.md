@@ -12,20 +12,53 @@ CrackProject est une application Java conçue pour démontrer différentes techn
 ---
 ## 🎨 Interfaces Utilisateur
 
-### Accueil 
-![Accueil](./Images/AccueilCrack.png)
+### 🏠 Accueil
+
+<img src="./Images/AccueilCrack.png" width="500" alt="Accueil Interface">
+
+---
 
 ### 🧠 Interface de Force Brute
-| ![BF1](./Images/BruteForceInterface.png) | ![BF2](./Images/BruteForceInterface2.png) |
-| > Menu Interface                         | > Interface avec les calculs de temps environs par rapport a la machine|
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./Images/BruteForceInterface.png" width="300"/></td>
+      <td><img src="./Images/BruteForceInterface2.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td align="center">Menu Interface</td>
+      <td align="center">Interface avec les calculs de temps estimés</td>
+    </tr>
+  </table>
+</div>
+
+---
 
 ### 📚 Interface de Dictionnaire
-![Dictionnaire UI](./Images/DictionnaireInterface.png)
->Recherche via une liste prédéfinie
 
-### 🛠️ Ajout manuel de mots de passe 
-| ![H1](./Images/HashInterface.png) | ![H2](./Images/HashInterface2.png) |
-| > Menu Hash Interface | > Menu Ajout Mot de Passe|
+<div align="center">
+  <img src="./Images/DictionnaireInterface.png" width="500"/>
+  <p>Recherche via une liste prédéfinie</p>
+</div>
+
+---
+
+### 🛠️ Ajout manuel de mots de passe
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./Images/HashInterface.png" width="300"/></td>
+      <td><img src="./Images/HashInterface1.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td align="center">Menu Hash Interface</td>
+      <td align="center">Menu Ajout Mot de Passe</td>
+    </tr>
+  </table>
+</div>
+
 
 
 ## 📁 Structure du projet
