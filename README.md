@@ -14,7 +14,7 @@ CrackProject est une application Java conçue pour démontrer différentes techn
 
 ### 🏠 Accueil
 
-<img src="./Images/AccueilCrack.png" width="500" alt="Accueil Interface">
+<img src="./Images/AccueilCrack.png" width="600" alt="Accueil Interface">
 
 ---
 
@@ -23,8 +23,8 @@ CrackProject est une application Java conçue pour démontrer différentes techn
 <div align="center">
   <table>
     <tr>
-      <td><img src="./Images/BruteForceInterface.png" width="300"/></td>
-      <td><img src="./Images/BruteForceInterface2.png" width="300"/></td>
+      <td><img src="./Images/BruteForceInterface.png" width="600"/></td>
+      <td><img src="./Images/BruteForceInterface2.png" width="600"/></td>
     </tr>
     <tr>
       <td align="center">Menu Interface</td>
@@ -38,7 +38,7 @@ CrackProject est une application Java conçue pour démontrer différentes techn
 ### 📚 Interface de Dictionnaire
 
 <div align="center">
-  <img src="./Images/DictionnaireInterface.png" width="500"/>
+  <img src="./Images/DictionnaireInterface.png" width="600"/>
   <p>Recherche via une liste prédéfinie</p>
 </div>
 
@@ -49,8 +49,8 @@ CrackProject est une application Java conçue pour démontrer différentes techn
 <div align="center">
   <table>
     <tr>
-      <td><img src="./Images/HashInterface.png" width="300"/></td>
-      <td><img src="./Images/HashInterface1.png" width="300"/></td>
+      <td><img src="./Images/HashInterface.png" width="600"/></td>
+      <td><img src="./Images/HashInterface1.png" width="600"/></td>
     </tr>
     <tr>
       <td align="center">Menu Hash Interface</td>
@@ -63,10 +63,6 @@ CrackProject est une application Java conçue pour démontrer différentes techn
 
 ## 📁 Structure du projet
 
-- `CrackProject/` — Code principal de l'application
-- `Models/` — Les entités utilisées
-- `App.config` — Configuration de la base de données (si applicable)
-- 
 -`AjoutPassword.java` : Interface pour ajouter manuellement des mots de passe.
 
 -`BruteForcePasswordCracker.java` : Implémentation de l'attaque par force brute.
